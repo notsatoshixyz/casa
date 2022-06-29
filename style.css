@@ -23,3 +23,10 @@ pre {
 footer {
   flex-shrink: 0;
 }
+
+@media (min-height: 300px) {
+    .footer {
+        position: sticky;
+        bottom: 0;
+    }
+}
