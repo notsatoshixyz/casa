@@ -20,6 +20,8 @@ pre {
   flex: 1 0 auto;
   min-height: 600px;
   text-align: center;
+  width: 768px;
+  max-width: 768px;
 }
 
 footer {
