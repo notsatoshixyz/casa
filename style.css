@@ -40,6 +40,6 @@ a {
 @media (min-height: 300px) {
     .footer {
         position: sticky;
-        top: 0;
+        bottom: 0;
     }
 }
