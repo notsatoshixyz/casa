@@ -22,10 +22,6 @@ pre {
   text-align: center;
 }
 
-.main-content p {
-  max-width: 768px;
-}
-
 footer {
   flex-shrink: 0;
 }
