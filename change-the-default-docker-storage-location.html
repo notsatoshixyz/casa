@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Change the default Docker storage location ~ notsatoshi.xyz</title>
+    <meta property="og:title" content="Change the default Docker storage location" />
+    <meta name="author" content="notsatoshi.xyz" />
+    <meta property="og:locale" content="en_US" />
+    <link rel="canonical" href="https://notsatoshi.xyz/change-the-default-docker-storage-location.html" />
+    <meta property="og:url" content="https://notsatoshi.xyz/change-the-default-docker-storage-location.html" />
+    <meta property="og:site_name" content="notsatoshi.xyz" />
+    <meta property="og:type" content="article" />
+    <meta property="article:published_time" content="2022-09-11T00:00:00+01:00" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <main class="main-content">
+    <h1><a href="https://notsatoshi.xyz">notsatoshi.xyz</a></h1>
+    <h2>Change the default Docker storage location</h2>
+    <p>
+      You need to create a JSON file <i>/etc/docker/daemon.json</i> with the content pointing to the new storage location:
+       <pre>
+        {
+        "data-root": "/mnt/newlocation"
+        }
+       </pre>
+      You can read more about daemon.json in the <a href="https://docs.docker.com/config/daemon/">Docker documentation</a>.
+    </p>
+    </main>
+    <footer>
+     <pre>
+   \
+    \ /\
+    ( )
+  .( o ).
+
+
+        </pre>
+      </footer>
+</body>
+</html>
